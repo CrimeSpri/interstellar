@@ -1,5 +1,5 @@
 var eventKey = localStorage.getItem("eventKey") || "`";
-var panicLink = localStorage.getItem("panicLink") || "https://classroom.google.com/";
+var panicLink = localStorage.getItem("panicLink") || "https://homework.russianschool.com/StudentPortal/#/home";
 
 document.addEventListener("keydown", function(event) {
   if (event.key === eventKey) {
